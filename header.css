@@ -17,7 +17,7 @@ header{
 background-size: cover;
 }
  
-}
+
 .content-box{
 max-width: 43.3125rem; 
 
@@ -235,7 +235,8 @@ padding-bottom: 0.625rem;
 /* @media only screen and (min-width: 600px) {...} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {header{
+@media only screen and (min-width: 768px) {
+  header{
   position: relative;
   padding: 10.625rem 0 13rem 0px;
   background-image: url(/partners/spectrum-gradient.svg);
@@ -246,16 +247,8 @@ padding-bottom: 0.625rem;
   background-size: cover;
   }
 }
-scrolling-wrapper-flexbox {
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  overflow-x: auto;
- }
- price-box:first-child{
-  margin-right: 100px;
-}
-}
+
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {...} */
@@ -272,7 +265,9 @@ scrolling-wrapper-flexbox {
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-}}
+
+}
+}
 
 /* header{
   position: relative;
